@@ -1,0 +1,25 @@
+
+name: otaku_reps
+description: Anime-themed push-up and pull-up counter with character voice and camera
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.1.0
+  camera: ^0.10.5+4
+  flutter_tts: ^3.8.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/Goku.png
+    - assets/Saitama.png
+    - assets/Luffy.png
+    - assets/Levi.png
+    - assets/Gojo.png
