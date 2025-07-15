@@ -7,11 +7,11 @@ workflows:
       xcode: latest
     scripts:
       - name: Get dependencies
-        script: |
-          flutter pub get
+        script: flutter pub get
+        working_directory: .
       - name: Build APK
-        script: |
-          flutter build apk --release
+        script: flutter build apk --release
+        working_directory: .
     artifacts:
       - build/app/outputs/flutter-apk/app-release.apk
     publishing:
